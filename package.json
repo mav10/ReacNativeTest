@@ -28,6 +28,7 @@
     "react-native-line-gauge": "^1.2.0",
     "react-native-pathjs-charts": "0.0.28",
     "react-native-simple-gauge": "^0.1.2",
+    "react-native-semi-circular-gauge": "^2.0.2",
     "react-native-vector-icons": "3.x.x",
     "react-navigation": "^1.0.0-beta.9",
     "react-prop-types": "^0.4.0",
