@@ -1,0 +1,49 @@
+{
+  "name": "NFS",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@shoutem/animation": "^0.8.9",
+    "@shoutem/theme": "git+https://github.com/GeekyAnts/theme.git",
+    "blueimp-md5": "^2.5.0",
+    "clamp": "^1.0.1",
+    "color": "~0.11.1",
+    "highcharts": "^5.0.11",
+    "lodash": "~4.11.1",
+    "moment": "^2.18.1",
+    "native-base": "^2.1.3",
+    "react": "16.0.0-alpha.6",
+    "react-dom": "^15.5.4",
+    "react-native": "^0.44.0",
+    "react-native-ble-manager": "^3.3.0",
+    "react-native-checkbox": "~1.0.8",
+    "react-native-css": "^2.0.4",
+    "react-native-easy-grid": "0.1.7",
+    "react-native-highcharts": "^1.0.1",
+    "react-native-keyboard-aware-scroll-view": "0.2.0",
+    "react-native-line-gauge": "^1.2.0",
+    "react-native-pathjs-charts": "0.0.28",
+    "react-native-simple-gauge": "^0.1.2",
+    "react-native-vector-icons": "3.x.x",
+    "react-navigation": "^1.0.0-beta.9",
+    "react-prop-types": "^0.4.0",
+    "react-tween-state": "^0.1.5",
+    "tween-functions": "^1.0.1"
+  },
+  "devDependencies": {
+    "babel-jest": "17.0.2",
+    "babel-preset-react-native": "1.9.0",
+    "jest": "17.0.3",
+    "react-test-renderer": "15.4.1"
+  },
+  "jest": {
+    "preset": "react-native",
+    "transformIgnorePatterns": [
+      "/node_modules/(!?native-base)"
+    ]
+  }
+}
